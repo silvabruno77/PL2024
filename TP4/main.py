@@ -1,31 +1,30 @@
-import re
-import os
-import sys
+# Exemplo do manual
+# ------------------------------------------------------------
+# calclex.py
+#
+# tokenizer for a simple expression evaluator for
+# numbers and +,-,*,/
+# ------------------------------------------------------------
 import ply.lex as lex
-
 
 # List of token names.   This is always required
 tokens = (
    'id',
    'nome',
-   'salario'
+   'salario',
 )
 
 # Regular expression rules for simple tokens
 t_id    = r'id=\d+'
 t_nome   = r'nome=\w+'
-t_salario   = r'salario=\d+'
-#t_DIVIDE  = r'/'
-#t_LPAREN  = r'\('
-#t_RPAREN  = r'\)'
-
+t_salario = r' salario=\d+(\.\d+)?'
 
 # A regular expression rule with some action code
-# Note addition of self parameter since we're in a class
-def t_NUMBER(self, t):
-   r'\d+'
-   t.value = int(t.value)
-   return t
+def t_NUMBER(t):
+    r'\d+'
+    t.value = int(t.value)    
+    return t
+
 # Define a rule so we can track line numbers
 def t_newline(t):
     r'\n+'
@@ -44,7 +43,7 @@ lexer = lex.lex()
 
 # Test it out
 data = '''
-id=1 nome=joao salario=1000
+id=1 nome=maria salario=1000.00
 '''
 
 # Give the lexer some input
