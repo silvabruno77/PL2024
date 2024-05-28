@@ -8,12 +8,13 @@
 
 **Ano**: 2024
 
-# Objetivo com a  Gramática
-
+# Objetivo com a Gramática
+**
 ?a
-b=a*2/(27-3)
-!a+b
-c=a*b/(a/b)
+b = a * 2 / (27 - 3)
+!a + b
+`c = a * b / (a / b)`
+**
 
 # Explicação da Gramática
 
