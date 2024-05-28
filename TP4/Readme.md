@@ -8,6 +8,8 @@
 
 **Ano**: 2024
 
+
+
 ##Explicação do Código
 
 Este script Python utiliza o módulo `ply.lex` para criar um lexer que reconhece tokens em uma string de entrada no formato  por exemplo assim `id=1 nome=maria salario=1000.00`.
