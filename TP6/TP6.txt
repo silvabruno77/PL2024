@@ -1,14 +1,15 @@
- 
-    S -> ? variable           
-       | ! Exprex          
-       | variable = Expr       
+
+    S -> '?' variable           
+       | '!' Exprex          
+       | variable '=' Expr       
     Exprex -> Exprex2 Oper
-    Oper -> + Exprex         
-        | - Exprex          
+    Oper -> '+' Exprex         
+        | '-' Exprex          
         | &                 
-    Exprex2 -> Expr3 Oper 2      
-    Oper 2 -> * Expr        +
+    Exprex2 -> Expr3 Oper2      
+    Oper2 -> '*' Expr   
+         | '/' Expr   
          | &                
-    Expexr3 -> ( Exprex ) 
-           | var          
+    Expexr3 -> '(' Exprex ')'
+           | id          
            | num            
