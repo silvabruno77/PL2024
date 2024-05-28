@@ -4,7 +4,7 @@
 
 **Nome**: Processamento de Linguagens
 
-**Sigla**: TPC2
+**Sigla**: TP6
 
 **Ano**: 2024
 
