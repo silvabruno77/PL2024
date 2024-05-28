@@ -10,12 +10,12 @@
 
 # Objetivo com a Gramática
 
-`?a
-b = a * 2 / (27 - 3)
+`?a`
+`b = a * 2 / (27 - 3)`
 
-!a + b
+`!a + b`
 
-c = a * b / (a / b)`
+`c = a * b / (a / b)`
 
 
 # Explicação da Gramática
