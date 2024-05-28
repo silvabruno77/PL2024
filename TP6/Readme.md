@@ -9,12 +9,12 @@
 **Ano**: 2024
 
 # Objetivo com a Gramática
-**
-?a
+
+`?a
 b = a * 2 / (27 - 3)
 !a + b
-`c = a * b / (a / b)`
-**
+c = a * b / (a / b)`
+
 
 # Explicação da Gramática
 
