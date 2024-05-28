@@ -4,7 +4,7 @@
 
 **Nome**: Processamento de Linguagens
 
-**Sigla**: TP4
+**Sigla**: TP3
 
 **Ano**: 2024
 
